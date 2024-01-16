@@ -1,16 +1,27 @@
-
-
 # FOLIO Permissions and Service Point Management
+Copyright (C) 2022-2024  Amelia Sutton
 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
+See the file "[COPYING](COPYING)" for more details.
+
+
+## Introduction
 A script to update the service points and permissions assigned to users in FOLIO
+
 ## Requirements
-
-
 * Python 3.x
 * dotenv
+* tqdm
 
 ## Usage Instructions
-
 * Create .env config file in the following format:
 >url = <br />
 tenant = <br />
@@ -30,8 +41,9 @@ user_service_point_column_index = <br />
     * The Column at user_id_column_index should contain the uuids for the user records to be updated
     * The columns between user_id_column_index up to but not including user_
 
-* Place Student and Staff data files in the program's directory.
-
+* Place .csv data file in the program's directory.
+* Create a subfolder in the program's directory called "Logs"
+* Open cmd and navigate to the program's directory and run main.py
 
 
 ## Contributors
@@ -39,13 +51,9 @@ user_service_point_column_index = <br />
 
 * Amelia Sutton
 
-
-## Version History
-
-* 0.1
-    * Initial Release
     
 ## Known Issues
-* 
+  
 ## Planned Features
-*
+* Updating Acquisitions Unit assignment
+* Updating eHoldings Group assignment
