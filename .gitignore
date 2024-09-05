@@ -1,13 +1,5 @@
-UM Staff Permissions Results.csv
-UM Student Permissions Results.csv
-UM Student Service Points Results.csv
-UM Staff Permissions Results.csv
-UM Staff Service Points Results.csv
-UM Student Management.csv
-UM Staff Management.csv
-UM Student.env
-UM Staff.env
-Test.env
-test.csv
+*.csv
+*.env
 Logs
+Test Logs
 __pycache__
