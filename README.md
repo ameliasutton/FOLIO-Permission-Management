@@ -1,5 +1,5 @@
 # FOLIO Permissions and Service Point Management
-Copyright (C) 2022-2024  Amelia Sutton
+Copyright (C) 2022-2025  Amelia Sutton
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -52,7 +52,7 @@ user_id_column_index = <br />
 
 * Place .csv data file in the program's directory.
 * Create a subfolder in the program's directory called "Logs"
-* Open cmd and navigate to the program's directory and run main.py
+* Open cmd and navigate to the program's directory and run main.py (or "rolesMain.py" for Eureka environments)
 * When prompted enter the name of your .env file
 * When prompted enter "refresh"
   * The script will update the Permissions and Service Points .csv files with the users' current permissions
@@ -63,7 +63,7 @@ user_id_column_index = <br />
   * Service points codes should be used in the service points file
   * You can add as many additional columns as you need to the right of the user_id_column_index column
   * The first column of service point codes will be set as the user's default service point
-* Open cmd and navigate to the program's directory and run main.py
+* Open cmd and navigate to the program's directory and run "main.py" (or "rolesMain.py" for Eureka environments)
 * When prompted enter the name of your .env file
 * When prompted enter "apply"
   * The script will update the Permissions and Service points for the users in FOLIO
